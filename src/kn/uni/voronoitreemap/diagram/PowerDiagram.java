@@ -117,7 +117,7 @@ public class PowerDiagram {
 	public void computeDiagram() {
 
 		if (sites.size > 0) {
-			sites.permutate();
+			//sites.permutate();
 
 			hull = new JConvexHull();
 			Site[] array = sites.array;
